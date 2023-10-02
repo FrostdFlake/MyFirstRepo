@@ -1,0 +1,37 @@
+* {
+  margin: auto;
+}
+
+.Intro {
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+.Top {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.NameFace {
+  display: flex;
+}
+
+.Bio > p {
+  margin: 5px auto 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Employment > * {
+  display: inline;
+}
+
+.Education > * {
+  display: inline;
+}
